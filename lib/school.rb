@@ -13,9 +13,13 @@ class School
     
 #    current_roster = roster[]
     
-    if roster[grade].empty?
-      roster[grade] = []
-    end
+#    if roster[grade].empty?
+#      roster[grade] = []
+#    end
+    
+    roster[level] ||= []
+
+
     roster[grade] << student 
   end
     
