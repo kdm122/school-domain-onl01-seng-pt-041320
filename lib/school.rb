@@ -12,7 +12,7 @@ class School
   def add_student(student, grade)
     
     roster[grade].empty?
-    roster[grade] = []
+      roster[grade] = []
     roster[grade] << student 
   end
     
