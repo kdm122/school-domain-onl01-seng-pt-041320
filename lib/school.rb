@@ -25,5 +25,7 @@ class School
     roster[year]
   end
     
+  def sort 
+    
 
 end
