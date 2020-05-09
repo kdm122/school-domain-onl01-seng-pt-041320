@@ -17,7 +17,7 @@ class School
 #      roster[grade] = []
 #    end
     
-    roster[level] ||= []
+    roster[grade] ||= []
 
 
     roster[grade] << student 
